@@ -23,7 +23,11 @@ if (totalRollCount >= 15)
 {
     Console.WriteLine("Congratulations! You won!");
 }
+else if (totalRollCount >= 12)
+{
+    Console.WriteLine("Almost! Give it another go!");
+}
 else
 {
-    Console.WriteLine("Sorry! Try again next time!");
+    Console.WriteLine("You lose! Try again");
 }
