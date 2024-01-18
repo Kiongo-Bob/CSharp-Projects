@@ -10,3 +10,7 @@ SortingOrderIDs/obj/
 PalindromeChecker/bin
 PalindromeChecker/obj
 RESTAPI_Implementation/
+
+# Ignore all save for files whose extension begins with '.cs'
+GradingApp/GuidedProject/MySolution/*
+!GradingApp/GuidedProject/MySolution/*.cs* 
